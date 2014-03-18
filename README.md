@@ -48,5 +48,5 @@ download
 ========
 
 Download the 1K zip file from
-[here](timepp.github.io/product/allowforeground/allowforeground.zip)
+[here](http://timepp.github.io/product/allowforeground/allowforeground.zip)
 
