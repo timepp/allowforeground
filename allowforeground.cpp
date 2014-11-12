@@ -2,5 +2,7 @@
 
 int CALLBACK wWinMain(HINSTANCE, HINSTANCE, LPWSTR, int)
 {
-    return AllowSetForegroundWindow(ASFW_ANY);
+    BOOL ret = AllowSetForegroundWindow(ASFW_ANY);
+    ExitProcess(ret? 0: 1);
+    return 0;
 }
